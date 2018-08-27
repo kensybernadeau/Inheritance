@@ -21,7 +21,7 @@ public class Geometric extends Progression {
 	}
 	
 			public double getTerm(int n){
-		return Math.pow(firstValue()*(commonFactor),(n-1));
+		return firstValue()*Math.pow((commonFactor),(n-1));
 		//t(n) = (first value) * (common factor)(n-1), 
 	}
 			public boolean equals(Object o){
